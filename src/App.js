@@ -13,7 +13,7 @@ function App() {
   const [waterFrontID, setWaterFrontID] = useState(1);
   const [castleID, setCastleID] = useState(1);
   // you'll need to track a city name, which starts as the city name of your choice.
-  const [cityName, setCityName] = useState('');
+  const [cityName, setCityName] = useState('Wakanda');
   // finally, you'll need an array of slogans, which could start out as ['The City of Excellence'] for example
   const [slogans, setSlogans] = useState(['']);
 
